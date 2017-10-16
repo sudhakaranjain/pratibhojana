@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Pratibhojana</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_alarm">Alarm</string>
+
+    <string name="nav_item_disease">Disease</string>
+    <string name="nav_item_allergy">Allergy</string>
+    <string name="nav_item_personaldetails">Personal Details</string>
+    <string name="nav_item_yourprofile">View Your Profile</string>
+    <string name="nav_item_recall">Recall</string>
+    <string name="nav_item_recommendation"><b><u>RECOMMENDATION</u></b></string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_personaldetails</item>
+        <item>@string/nav_item_disease</item>
+        <item>@string/nav_item_allergy</item>
+        <item>@string/nav_item_recall</item>
+        <item>@string/nav_item_yourprofile</item>
+        <item>@string/nav_item_recommendation</item>
+
+    </string-array>
+
+    <string name="title_yourprofile">Your Profile</string>
+    <string name="title_personaldetails">Personal Details</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="title_disease">Disease</string>
+    <string name="title_allergy">Allergy</string>
+    <string name="title_recall">Recall</string>
+    <string name="title_recommendation">Recommendation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="click"><u>Now click above</u></string>
+
+    <string name="Edit_personal"><u>Edit Personal details</u></string>
+    <string name="Edit_diseases"><u>Edit Diseases</u></string>
+    <string name="Edit_allergy"><u>Edit Allergy</u></string>
+
+
+</resources>

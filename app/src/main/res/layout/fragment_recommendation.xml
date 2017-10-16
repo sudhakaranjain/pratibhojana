@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"
+        />
+
+    <View
+        android:id="@+id/shadowView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#75000000"
+        android:visibility="gone" />
+
+    <com.example.sudhakaran.library.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        fab:fab_addButtonColorNormal="@color/colorPrimary"
+        fab:fab_addButtonColorPressed="@color/colorPrimaryDark"
+        fab:fab_addButtonPlusIconColor="@color/colorAccent"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp">
+
+        <com.example.sudhakaran.library.FloatingActionButton
+            android:id="@+id/breakfast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_title="Breakfast"
+            fab:fab_icon="@drawable/breakfast"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+        <com.example.sudhakaran.library.FloatingActionButton
+            android:id="@+id/morningsnacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_title="Morning snacks"
+            fab:fab_icon="@drawable/dish"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+        <com.example.sudhakaran.library.FloatingActionButton
+            android:id="@+id/lunch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_title="Lunch"
+            fab:fab_icon="@drawable/lunch"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+        <com.example.sudhakaran.library.FloatingActionButton
+            android:id="@+id/eveningsnacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_title="Evening snacks"
+            fab:fab_icon="@drawable/dish"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+        <com.example.sudhakaran.library.FloatingActionButton
+            android:id="@+id/dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_title="Dinner"
+            fab:fab_icon="@drawable/dinner"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+    </com.example.sudhakaran.library.FloatingActionsMenu>
+
+</RelativeLayout>

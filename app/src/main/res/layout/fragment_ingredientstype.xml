@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sudhakaran.pratibhojana.activity.IngredientstypeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/cereals_grains"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Cereals And Grains"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/pulses_legumes"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/cereals_grains"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Pulses And Legumes"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/vegetables"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        android:layout_below="@id/pulses_legumes"
+        android:layout_centerHorizontal="true"
+        android:text="Vegetables"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/fruits"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Fruits"
+        android:textSize="15dp"
+        android:layout_below="@id/vegetables"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/fats_sugars_oils"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Fats, Sugars and Edible Oils"
+        android:textSize="15dp"
+        android:layout_below="@id/fruits"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/condiments_spices"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/fats_sugars_oils"
+        android:text="Condiments And Spices"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/nuts"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/condiments_spices"
+        android:text="Nuts"
+        android:textSize="15dp"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/diary_products"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/nuts"
+        android:text="Diary Products"
+        android:textSize="15dp"
+        android:background="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/meat_seafood"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/diary_products"
+        android:text="Meat and Seafood"
+        android:textSize="15dp"
+        android:background="@color/colorAccent"
+        />
+
+</RelativeLayout>

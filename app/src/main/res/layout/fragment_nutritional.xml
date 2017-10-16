@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sudhakaran.pratibhojana.activity.NutritionalFragment">
+
+    <TextView
+        android:id="@+id/bmitype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+         />
+
+    <TextView
+        android:id="@+id/totalcalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bmitype"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+         />
+
+      <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/piechart"
+        android:layout_below="@id/totalcalories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--<TextView
+        android:id="@+id/totalcarbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalcalories"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/totalfats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalcarbs"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/totalproteins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalfats"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/totaliron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalproteins"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/totalcalcium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totaliron"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"
+        /> -->
+
+</RelativeLayout>
